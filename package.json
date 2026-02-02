@@ -1,0 +1,26 @@
+{
+  "name": "telegram-subs-bot",
+  "version": "1.0.0",
+  "description": "A Telegram subscription bot for managing user plans and payments",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "subscription",
+    "payment",
+    "whatsapp"
+  ],
+  "author": "mrwasif-dev",
+  "license": "MIT",
+  "dependencies": {
+    "telegraf": "^4.15.0",
+    "fs": "0.0.1-security"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
